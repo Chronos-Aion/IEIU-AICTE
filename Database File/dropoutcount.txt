@@ -1,0 +1,12 @@
+
+CREATE TABLE public.dropoutcount
+(
+    uidai numeric(12)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.dropoutcount
+    OWNER to postgres;

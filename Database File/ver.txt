@@ -1,0 +1,15 @@
+CREATE TABLE public.ver
+(
+    email character varying(250) COLLATE pg_catalog."default" NOT NULL,
+    hash_value character varying(45) COLLATE pg_catalog."default",
+    password character varying(45) COLLATE pg_catalog."default",
+    active integer,
+    CONSTRAINT ver_pkey PRIMARY KEY (email)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.ver
+    OWNER to postgres;

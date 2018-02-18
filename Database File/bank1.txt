@@ -1,0 +1,13 @@
+
+CREATE TABLE public.bank1
+(
+    uidai numeric(20),
+    sstatus character varying(20) COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.bank1
+    OWNER to postgres;

@@ -1,0 +1,14 @@
+
+CREATE TABLE public.govdb
+(
+    gov_id numeric(12) NOT NULL,
+    pass character varying(10) COLLATE pg_catalog."default",
+    CONSTRAINT govdb_pkey PRIMARY KEY (gov_id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.govdb
+    OWNER to postgres;

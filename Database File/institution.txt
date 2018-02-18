@@ -1,0 +1,16 @@
+
+CREATE TABLE public.institution
+(
+    inst_name character varying(50) COLLATE pg_catalog."default",
+    password character varying(20) COLLATE pg_catalog."default",
+    inst_id character varying(20) COLLATE pg_catalog."default",
+    "State" character varying(20) COLLATE pg_catalog."default",
+    "Zip_Code" character varying(20) COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.institution
+    OWNER to postgres;

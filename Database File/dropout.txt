@@ -1,0 +1,13 @@
+CREATE TABLE public.dropout
+(
+    state character varying(25) COLLATE pg_catalog."default",
+    district character varying(25) COLLATE pg_catalog."default",
+    twentysixteen character varying(5) COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.dropout
+    OWNER to postgres;

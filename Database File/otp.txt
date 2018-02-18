@@ -1,0 +1,12 @@
+CREATE TABLE public.otp
+(
+    otp numeric(5) NOT NULL,
+    CONSTRAINT otp_pkey PRIMARY KEY (otp)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.otp
+    OWNER to postgres;
