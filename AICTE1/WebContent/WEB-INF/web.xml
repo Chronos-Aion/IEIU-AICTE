@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>AICTE1</display-name>
+
+
+	<servlet>
+		<servlet-name>Insert</servlet-name>
+		<servlet-class>dbconn.Insert</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Insert</servlet-name>
+		<url-pattern>/Insert</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>InsertStudent</servlet-name>
+		<servlet-class>dbconn.InsertStudent</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>InsertStudent</servlet-name>
+		<url-pattern>/InsertStudent</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>dbconn.Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>fullouter</servlet-name>
+		<servlet-class>dbconn.fullouter</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>fullouter</servlet-name>
+		<url-pattern>/fullouter</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>facultyratio</servlet-name>
+		<servlet-class>dbconn.facultyratio</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>facultyratio</servlet-name>
+		<url-pattern>/facultyratio</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>dropoutupdate</servlet-name>
+		<servlet-class>dbconn.dropoutupdate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>dropoutupdate</servlet-name>
+		<url-pattern>/dropoutupdate</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>trends</servlet-name>
+		<servlet-class>dbconn.trends</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>trends</servlet-name>
+		<url-pattern>/trends</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>deleteimport</servlet-name>
+		<servlet-class>dbconn.deleteimport</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deleteimport</servlet-name>
+		<url-pattern>/deleteimport</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>convertcsv</servlet-name>
+		<servlet-class>dbconn.convertcsv</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>convertcsv</servlet-name>
+		<url-pattern>/convertcsv</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>discrepncy</servlet-name>
+		<servlet-class>dbconn.discrepncy</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>discrepncy</servlet-name>
+		<url-pattern>/discrepncy</url-pattern>
+	</servlet-mapping>
+    <servlet>
+		<servlet-name>stulogdash</servlet-name>
+		<servlet-class>dbconn.stulogdash</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>stulogdash</servlet-name>
+		<url-pattern>/stulogdash</url-pattern>
+	</servlet-mapping>
+    
+</web-app>

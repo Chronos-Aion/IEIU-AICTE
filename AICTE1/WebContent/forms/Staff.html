@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="wnameth=device-wnameth, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha394-rwoIResjU2yc3z9GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script type="text/javascript" src="js/staffval.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<link href="D:\New folder (2)\dist\css\bootstrap.min.css" rel="stylesheet">
+   </head>
+  <body onload="document.staff.Staff_Name.focus();">
+ <form method="POST"  name="staff" action="/AICTE1/Insert">
+    <div class="container">
+<center><p style="color:violet ;font-weight:bold">STAFF REGISTRATION TABLE</p></center>
+<div class="form-group row" ">
+  <label for="example-search-input" class="col-2 col-form-label">Staff name</label>
+  <div class="col-9">
+    <input class="form-control"  value="" name="Staff_Name">
+  </div>
+</div>
+<div class="form-group row"">
+  <label for="example-email-input" class="col-2 col-form-label">UIDAI</label>
+  <div class="col-9">
+    <input class="form-control" type="text" value="" name="uidai">
+  </div>
+</div><div class="form-group row">
+  <label for="example-url-input" class="col-2 col-form-label">Date Of Birth</label>
+  <div class="col-9">
+    <input  type="date"class="form-control" value="" name="dob">
+  </div>
+</div>
+
+  <div class="form-group row" >
+  <label for="example-date-input" class="col-2 col-form-label">Gender</label>
+  <div class="col-9">
+    <select name="Gender">
+    <option value="default">(select your gender)</option>
+    <option value="M">male</option>
+    <option value="F">female</option>
+    <option value="O">others</option></select>
+  </div>
+  </div>
+<div class="form-group row">
+  <label for="example-tel-input" class="col-2 col-form-label">Mail_Id</label>
+  <div class="col-9">
+    <input class="form-control" type="email" value="" name="Mail_id">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-tel-input" class="col-2 col-form-label">Bank_Account</label>
+  <div class="col-9">
+    <input class="form-control" type="text" value="" name="acc_no">
+  </div>
+</div>
+
+<div class="form-group row" >
+  <label for="example-password-input" class="col-2 col-form-label">Contact Number</label>
+  <div class="col-9">
+    <input class="form-control" type="text" value="" name="contact_no">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-datetime-local-input" class="col-2 col-form-label">Joined Year</label>
+  <div class="col-9">
+    <input class="form-control" type="text" value="" name="joined_year">
+  </div>
+</div>
+ <div class="form-group row" >
+  <label for="example-date-input" class="col-2 col-form-label">Staff</label>
+  <div class="col-9">
+    <select name="Type_of_staff">
+    <option value="default">(select your staff type)</option>
+    <option value="SS">School staff</option>
+    <option value="CS">College staff</option></select>
+  </div>
+  </div>
+<div class="form-group row" >
+  <label for="example-number-input" class="col-2 col-form-label">Institution Name</label>
+  <div class="col-9">
+    <input class="form-control" type="text" value="" name="Institution_Name">
+  </div>
+  </div>
+  <div class="form-group row" >
+  <label for="example-number-input" class="col-2 col-form-label">Qualifications</label>
+  <div class="col-9">
+    <input class="form-control" type="text" value="" name="Qualification">
+  </div>
+  </div>	
+  <div class="container" >
+  //<label for="example-date-input" class="col-2 col-form-label">Salary Credited</label>
+  <div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <select name="Salary_Credited">
+    <option value="default">(select any one)</option>
+    <option value="Y">Yes</option>
+    <option value="N">No</option></select>
+  </div>
+  <div class="col-md-2"></div>
+  </div>
+  </div>
+  <div class="form-group ">
+  <input type="Submit" class="btn btn-success" name="Submit" value="Submit" >
+  </button>
+</div>
+</div>
+</form>
+<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha394-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe9fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha394-vBWWzlZJ9ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>

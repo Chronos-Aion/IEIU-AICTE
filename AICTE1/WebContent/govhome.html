@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome government!</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!--materlize css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+    <script type="text/javascript">
+        $('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+    </script>
+
+</head>
+<body>
+<nav style="background-color: #8A34FB;" id="navbar" >
+            <div class="container" >
+                <div class="nav-wrapper ">
+                    <a href="#" class="brand-logo">IEIU</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="institution.html">admin panel</a></li>
+                        <li><a href="StuLogin.html">Logout</a></li>
+
+                        
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <div class="container">
+
+        <div class="row" style="padding-top:10%">
+            <div class="col-lg-6">
+                <div class="card">
+                    
+                   <center> <h1>Dropout rate</h1> </center> 
+                    
+                    <div class="card-content">
+                        <hr width="40%">
+                        <p>Click here to update the dropout rate!</p>
+                       <center> <form method="POST"  name="staff" action="/AICTE1/dropoutupdate"> <input type="submit" value="Update" class="btn btn-default"></form></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- <div class="thumbnail"> -->
+                    <div class="card">
+
+
+                        
+                      <center><h1>Discrepancies</h1></center>  
+
+                        <div class="card-content">
+                            <hr width="40%">
+                            <p>To know about the discrepancies in all institutions.</p>
+                          <center>  <form class="form-control" onsubmit="##"> <input type="submit" value="Click me!" class="btn btn-default"></form></center>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </div>  
+
+    <div>
+
+  
+
+</div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
